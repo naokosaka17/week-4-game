@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>SUPER MARIO</title>
+	<!--jQuery-->
+	 <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	<!--css, google font and js-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<!--<img src="assets/images/title.png" alt="title" id="title"> -->
+		<h1>Super Mario RPG!</h1>
+	</header>
+	<main>
+
+		<!--characters in the original position-->
+		<div id="originalPosition"> 
+			<div class="box" value="mario">
+				<h3>Mario </h3>
+				<img src="assets/images/mario.jpeg" alt="mario" class="img">
+				<div class="hp" id ="mhp">150</div>
+			</div>
+
+			<div class="box" value="dk">
+				<h3>Donkey Kong</h3>
+				<img src="assets/images/donkeykong.jpeg" alt="donkeykong" class="img">
+				<div class="hp" id="dhp">140</div>
+			</div>
+
+			<div class="box" value="wario">
+				<h3>Wario</h3>
+				<img src="assets/images/wario.jpeg" alt="wario" class="img">
+				<div class="hp" id="whp">170</div>
+			</div>
+
+			<div class="box" value="bowser">
+				<h3>Bowser</h3>
+				<img src="assets/images/bowser.jpeg" align="bowser" class="img">
+				<div class="hp" id="bhp">200</div>
+			</div>
+		</div>
+
+
+		<h2>Your Character!</h2>
+			<!--set select character in here -->
+			<div id="char"></div>
+
+		<h2>Enemies available to attack 
+			<!-- enemies selection here -->
+			<div id="waitPosition"></div>
+
+		<br>Fight section</h2>
+		<!-- Attack button -->
+		<button type="button" id="button">Attack!</button>
+		
+		<h2>Defender</h2>
+			<!--set enemy in here -->
+			<div id="df"></div>
+
+		<div id="attack"></div>
+		
+
+	</main>
+
+</body>
+</html>

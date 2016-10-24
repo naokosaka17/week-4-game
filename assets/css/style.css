@@ -1,0 +1,56 @@
+body{
+	background-image: url("../images/backgroundImg.jpg");
+
+}
+
+h1{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 50px;
+	padding-left: 8px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 35px;
+	padding-left: 8px;
+}
+
+h3, .hp, button {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#attack,#defName{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+#originalPosition {
+	width: 100%;
+	margin-right: 0 auto;
+}
+
+.box{
+	width: 180px;
+	height: 180px;
+	border: solid 5px blue;
+	background-color: white;
+	display: inline-block;
+	margin-left: 95px;
+	
+}
+
+.box:hover{
+	border-color: yellow;
+}
+
+.img{
+	width: 120px;
+	height: 130px;
+	padding-left: 30px;
+}
