@@ -11,40 +11,38 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 	<script src="assets/javascript/game.js"></script>
-
 </head>
 <body>
 
 	<header>
-		<!--<img src="assets/images/title.png" alt="title" id="title"> -->
 		<h1>Super Mario RPG!</h1>
 	</header>
 	<main>
 
 		<!--characters in the original position-->
 		<div id="originalPosition"> 
-			<div class="box" value="mario">
+			<div class="box" data-value="Mario" data-ap=8 data-hp=160>
 				<h3>Mario </h3>
 				<img src="assets/images/mario.jpeg" alt="mario" class="img">
-				<div class="hp" id ="mhp">150</div>
+				<h3 class="marioHP" id="marioAP"></h3>
 			</div>
 
-			<div class="box" value="dk">
+			<div class="box" data-value="Donkey kong" data-ap=30 data-hp=220>
 				<h3>Donkey Kong</h3>
 				<img src="assets/images/donkeykong.jpeg" alt="donkeykong" class="img">
-				<div class="hp" id="dhp">140</div>
+				<h3 class="dkHP" id="dkAP"></h3>
 			</div>
 
-			<div class="box" value="wario">
+			<div class="box" data-value="Wario" data-ap=15 data-hp=180>
 				<h3>Wario</h3>
 				<img src="assets/images/wario.jpeg" alt="wario" class="img">
-				<div class="hp" id="whp">170</div>
+				<h3 class="warioHP" id="warioAP"></h3>
 			</div>
 
-			<div class="box" value="bowser">
+			<div class="box" data-value="Bowser" data-ap=80 data-hp=300>
 				<h3>Bowser</h3>
 				<img src="assets/images/bowser.jpeg" align="bowser" class="img">
-				<div class="hp" id="bhp">200</div>
+				<h3 class="bowserHP" id="bowserAP"></h3>
 			</div>
 		</div>
 
@@ -53,22 +51,24 @@
 			<!--set select character in here -->
 			<div id="char"></div>
 
-		<h2>Enemies available to attack 
+		<h2>Enemies available to attack</h2>
 			<!-- enemies selection here -->
 			<div id="waitPosition"></div>
 
-		<br>Fight section</h2>
-		<!-- Attack button -->
-		<button type="button" id="button">Attack!</button>
+		<h2>Fight section</h2>
+			<!-- Attack button -->
+			<button type="button" id="button">Attack!</button>
 		
 		<h2>Defender</h2>
 			<!--set enemy in here -->
-			<div id="df"></div>
-
-		<div id="attack"></div>
-		
-
+			<div id="df">
+			</div>
+				<div class="report" id="first"></div><br>
+				<div class="report" id="second"></div><br>
+				<div class="report" id="third"></div>
+			
 	</main>
-
+	
+	
 </body>
 </html>

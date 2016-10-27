@@ -6,7 +6,6 @@ body{
 h1{
 	font-family: 'Bungee Inline', cursive;
 	font-size: 50px;
-	padding-left: 8px;
 	text-align: center;
 }
 
@@ -24,9 +23,9 @@ h3, .hp, button {
 	margin-top: 5px;
 }
 
-#attack,#defName{
+.report{
 	font-family: 'Bungee Inline', cursive;
-	font-size: 18px;
+	font-size: 28px;
 	margin-left: 20px;
 }
 
@@ -41,8 +40,7 @@ h3, .hp, button {
 	border: solid 5px blue;
 	background-color: white;
 	display: inline-block;
-	margin-left: 95px;
-	
+	margin-left: 30px;
 }
 
 .box:hover{
@@ -50,7 +48,10 @@ h3, .hp, button {
 }
 
 .img{
-	width: 120px;
-	height: 130px;
-	padding-left: 30px;
+	width: 150px;
+	height: 150px;
+	padding-left: 14px;
+}
+main{
+	margin-bottom: 50px;
 }
