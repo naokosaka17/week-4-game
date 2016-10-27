@@ -1,5 +1,8 @@
 $(document).ready(function(){	
 	
+	//back music
+	var audio = newAudio("mariomusic.mp3");
+		audio.play();
 	//=====  Box function  =====//
 	$(".box").on("click",function(){
 
